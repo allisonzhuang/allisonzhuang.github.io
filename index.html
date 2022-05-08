@@ -1,1 +1,270 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="myPage">
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
+  <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+  <a href="#projects" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Projects</a>
+  <a href="#photos" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Photography</a>
+  <a href="#meme stash" class="w3-bar-item w3-button w3-hide-small w3-hover-white">meme stash</a>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="search"></i></a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button">About</a>
+    <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+    <a href="#photos" class="w3-bar-item w3-button">Photography</a>
+    <a href="#memes" class="w3-bar-item w3-button">meme stash</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="/w3images/sailboat.jpg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+  </div>
+</div>
+
+<!-- About -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="about">
+
+<div class="w3-third">
+
+
+<div class="w3-card w3-white">
+  <img src="/w3images/snow.jpg" alt="Snow" style="width:100%">
+  <div class="w3-container">
+  </div>
+  </div>
+</div>
+
+<div class="w3-twothird">
+<h2>Hello!</h2>
+<p>I’m Allison Zhuang, a rising sophomore at Dartmouth College. I love puns, the smell of rain, and creating things that delight and inspire. </p>
+
+<p>One of 8 Jack Byrne Scholars in my year, I’m currently pursuing a double major in mathematics and computer science. Math forms the foundation for all computational methods and the runway for future innovations, like number theory in cybersecurity and linear algebra in machine learning. Meanwhile, computer science is a powerful mechanism for truth-seeking in mathematics, be it by simulating probabilities or solving equations where algebraic tricks fall short.</p>
+
+<p>For fun, I’m training to become a Trip Leader for the DOC and First-Year Trips, and I sing for the Glee Club and am a member of the Association for Women in Mathematics Executive Board. I’m also an avid foodie and traveler. In my free time, I fold origami, write poetry and short stories, break the fourth wall, and take photos–you can see some if you keep scrolling :)
+ </p>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-128 w3-center" id="projects">
+<h2>PROJECTS</h2>
+<p>Things I've created!</p>
+
+<div class="w3-row"><br>
+
+<div class="w3-third">
+  <img src="/w3images/avatar.jpg" alt="Boss" style="width:65%" class="w3-round w3-hover-opacity">
+  <h3>Networks Robustness Library</h3>
+  <p>As a WiSP intern, I co-wrote a coding library to generate scale-free and random networks, simulate attacks and failures, and plot the networks' performance over a variety of metrics: efficiency, largest cluster size, and average cluster size. Applications range from electronics to social networks to cell biology. </p>
+</div>
+
+<div class="w3-third">
+  <img src="/w3images/avatar.jpg" alt="Boss" style="width:65%" class="w3-round w3-hover-opacity">
+  <h3>Project Euler Repository</h3>
+<p> There’s nothing better than cracking a hard problem with a team of good friends. I’m a contributor to a <a href="https://github.com/cpratim/Project-Euler">Github repository </a> of solutions to <a href="http://projecteuler.net">Project Euler</a> problems, the internet’s most popular trove of challenges in mathematical computing.  </p>
+<p> Impossible without raw computing power, and impossibly slow by brute force, Euler problems marry the best of computer science and mathematics. Coded in C++ to practice a fast, low-level programming language, I’ve written solutions to problems 1, 6, 69, and 99 that work in microseconds. 
+</p>
+</div>
+
+<div class="w3-third">
+  <img src="/w3images/avatar.jpg" alt="Boss" style="width:65%" class="w3-round w3-hover-opacity">
+  <h3>Useful Proof 2</h3>
+  <p> My most revolutionary work of original mathematical scholarship to date, Useful Proof 2 can nonetheless be understood and enjoyed by anyone with a high school-level math education. Read it! :) </p>
+</div>
+
+</div>
+</div>
+
+<!-- Photos -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="photos">
+
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Raleway;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>PHOTOS</h1>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+  <img src="/w3images/wedding.jpg" style="width:100%">
+  <img src="/w3images/rocks.jpg" style="width:100%">
+  <img src="/w3images/falls2.jpg" style="width:100%">
+  </div>
+  <div class="column">
+  <img src="/w3images/underwater.jpg" style="width:100%">
+  <img src="/w3images/ocean.jpg" style="width:100%">
+  <img src="/w3images/wedding.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+  <img src="/w3images/wedding.jpg" style="width:100%">
+  <img src="/w3images/rocks.jpg" style="width:100%">
+  <img src="/w3images/falls2.jpg" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
+
+
+<!-- meme stash -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="meme stash">
+
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Raleway;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>meme stash</h1>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+  <img src="/w3images/wedding.jpg" style="width:100%">
+  <img src="/w3images/rocks.jpg" style="width:100%">
+  <img src="/w3images/falls2.jpg" style="width:100%">
+  </div>
+  <div class="column">
+  <img src="/w3images/underwater.jpg" style="width:100%">
+  <img src="/w3images/ocean.jpg" style="width:100%">
+  <img src="/w3images/wedding.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+  <img src="/w3images/wedding.jpg" style="width:100%">
+  <img src="/w3images/rocks.jpg" style="width:100%">
+  <img src="/w3images/falls2.jpg" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Github"><i class="fa fa-github"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <p> © Allison Zhuang, 2022</p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
